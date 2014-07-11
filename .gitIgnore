@@ -1,0 +1,98 @@
+### Custom things for our setup
+# Ignoring .gitignore happens in the end of the file
+
+# Folders that should generally just be on the server and not in git
+
+
+### Various IDE project files and folders
+.idea/
+.buildpath
+.project
+.settings/
+#phpunit.xml
+vendor/
+#prototype_pcg/Test/fixtures/
+
+### Preprocessor stuffs
+# Sass
+.sass-cache/
+#sass/config.rb
+_build/
+
+# Always sync .grunt folder but not node_modules
+!.grunt/
+.grunt/node_modules/
+
+
+### All .htaccess and examples
+*.htaccess
+ht.access
+
+
+### GitHub's suggested global ignores ###
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+### Linux ###
+.*
+*~
+
+### OSX ###
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+### .gitignore ###
+# Ignore all
+.gitignore
+
+# To maintain empty directories in git, the following .gitignore shouldn't be ignored
+!/.gitignore
+!/log/.gitignore

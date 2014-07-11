@@ -1,0 +1,13 @@
+<phpunit bootstrap="" colors="true">
+    <testsuites>
+        <testsuite name="kittyglitter test" >
+            <directory>Calc/Test</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <var name="TEST_DSN" value="mysql:dbname=testKittyGlitters;host=localhost" />
+        <var name="TEST_USER" value="root" />
+        <var name="TEST_PASSWD" value="root" />
+        <var name="TEST_DBNAME" value="testKittyGlitters" />
+    </php>
+</phpunit>
