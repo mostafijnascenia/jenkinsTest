@@ -1,6 +1,6 @@
 <?php
 
-include_once '/var/www/jenkinsTest/Calc/Calculators.php';
+include_once '/var/www/jenkinsTest/Calc/src/Calculators.php';
 
 class CalculatorsTest extends PHPUnit_Framework_TestCase
 {
