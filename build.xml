@@ -84,7 +84,7 @@
     <target name="phpmd"
             description="Perform project mess detection using PHPMD and print human readable output. Intended for usage on the command line before committing.">
         <exec executable="phpmd">
-            <arg path="${basedir}/Calc/src/Calculators.class.php"/>
+            <arg path="${basedir}/Calc/src/Calculators.php"/>
             <arg value="xml"/>
             <arg value="cleancode,codesize,controversial,design,naming,unusedcode"/>
         </exec>
